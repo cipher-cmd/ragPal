@@ -109,7 +109,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  object-fit: cover;
   z-index: 1;
   animation: subtleZoom 25s ease-in-out alternate infinite;
 }
@@ -182,7 +182,7 @@ body {
 
 .as-seen-title {
   font-family: var(--font-heading);
-  font-size: 2.8rem;
+  font-size: 2rem;
   font-weight: 600;
   color: #000;
   letter-spacing: -0.5px;
@@ -192,10 +192,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 30px;
-  flex-wrap: wrap;
-  max-width: 900px;
+  gap: 40px;
+  max-width: 1200px;
   margin: 0 auto;
+  padding: 0 20px;
 }
 
 .as-seen-img {
@@ -231,7 +231,7 @@ body {
 
 .dear-saumi-text .dear-saumi-heading {
   font-family: var(--font-heading);
-  font-size: 2.8rem;
+  font-size: 2.2rem;
   font-weight: 500;
   margin-bottom: 40px;
   color: #111;
@@ -271,7 +271,7 @@ body {
 
 /* ================== TESTIMONIALS ================== */
 .testimonials {
-  padding: 100px 5%;
+  padding: 100px 5% 40px;
   text-align: center;
 }
 
@@ -329,7 +329,7 @@ body {
 
 /* ================== MEDIA RECOGNITION ================== */
 .media-recognition {
-  padding: 120px 5% 50px;
+  padding: 60px 5% 50px;
   text-align: center;
   max-width: 900px;
   margin: 0 auto;
@@ -485,6 +485,7 @@ body {
   .hero-title { font-size: 4rem; }
   .dear-saumi { gap: 50px; }
   .footer-inner { gap: 30px; }
+  .as-seen-line { width: 100px; }
   .magazines-grid { grid-template-columns: repeat(2, 1fr); gap: 40px; max-width: 700px; }
 }
 
@@ -533,10 +534,22 @@ body {
   
   .section-title { font-size: 2.2rem; margin-bottom: 40px; }
   
-  .as-seen-header { margin-bottom: 25px; }
-  .as-seen-title { font-size: 1.8rem; }
   .as-seen-line { width: 50px; }
-  .as-seen-img { max-height: 40px; }
+  
+  .as-seen-title { font-size: 1.8rem; }
+  
+  .logos-group {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  
+  .as-seen-img {
+    max-height: 50px;
+    margin: 0 auto;
+  }
   
   .test-card { width: 100%; max-width: 340px; border-radius: 24px; }
   .test-quote { font-size: 1.05rem; padding: 0 20px 25px 20px; }
@@ -544,7 +557,7 @@ body {
   .footer-section { padding: 50px 6% 30px; }
   .footer-logo { 
     max-width: 180px; 
-    margin: 0 auto;
+    margin-left: -5px; /* Slight offset for logo transparency */
     display: block;
   }
   .footer-tagline { font-size: 1rem; }
@@ -561,4 +574,11 @@ body {
   
   .test-card { max-width: 300px; }
   .footer-logo { max-width: 150px; }
+}
+.basic-amp {
+  font-family: var(--font-body) !important;
+  font-style: normal !important;
+  display: inline-block;
+  transform: translateY(-0.05em);
+  font-weight: 300;
 }

@@ -67,7 +67,7 @@ function App() {
         <div className="dear-saumi-text">
           <p className="dear-saumi-heading">Dear Saumi,</p>
           <p>
-            You're the most good looking, beautiful person I know,<br/>everything about you feels like art.
+            You're the most good looking, beautiful person I know, everything about you feels like art.
           </p>
           <p>
             Three months with you in Delhi were the best time of my life, and I keep going back to them more than I admit. The way you can be so fun and crazy in one moment, and so strong and focused the next, it honestly inspires me. Watching you chase your dreams in New York, even when things could be easier, makes me respect you even more.
@@ -100,11 +100,11 @@ function App() {
           </div>
           <div className="test-card">
             <img src="/images/testimonial2.webp" alt="Mammi Pappa" />
-            <p className="test-quote">My late night tv partner, darling daughter, sunny &amp; biggest rondu, proud of you &amp; LY</p>
+            <p className="test-quote">My late night tv partner, darling daughter, sunny <span className="basic-amp">&</span> biggest rondu, proud of you <span className="basic-amp">&</span> LY</p>
           </div>
           <div className="test-card">
             <img src="/images/testimonial3.webp" alt="Apurv Budhraja" />
-            <p className="test-quote">Khud kuch kaam karle Thanks for lifetime memories, and now for some space, best sister<br/>💚</p>
+            <p className="test-quote">Khud kuch kaam karle Thanks for lifetime memories, and now for some space, best sister</p>
           </div>
         </div>
       </section>
@@ -113,9 +113,9 @@ function App() {
       <section className="media-recognition reveal">
         <h2 className="section-title">Media Recognition</h2>
         <p className="media-body">
-          222lab.in founder Saumya Jain has been featured across media for her sharp UI/UX,<br/>world class taste &amp; harkate
+          222lab.in founder Saumya Jain has been featured across media for her sharp UI/UX,<br/>world class taste <span className="basic-amp">&</span> harkate
           <br /><br />
-          She runs a full-time job, advisor to PeakPals, loves hard, hypes her people, sips matcha &amp;<br/>overthinks everything(I'm going insane)
+          She runs a full-time job, advisor to PeakPals, loves hard, hypes her people, sips matcha <span className="basic-amp">&</span><br/>overthinks everything(I'm going insane)
           <br /><br />
           But somehow, she's a huge inspiration to many, especially one.
         </p>
@@ -153,7 +153,7 @@ function App() {
           <div className="footer-right">
             <p className="footer-tagline">No returns. No exchanges. You're stuck with me.</p>
             <p className="footer-secondary">Started with facetime, and rest is history</p>
-            <p className="footer-credits">Built with alot of love &amp; efforts by Team PeakPals,<br/>hope you love it, God bless!</p>
+            <p className="footer-credits">Built with alot of love <span className="basic-amp">&</span> efforts by Team PeakPals,<br/>hope you love it, God bless!</p>
           </div>
         </div>
         <div className="footer-divider"></div>
