@@ -143,7 +143,7 @@ function App() {
       <footer className="footer-section reveal">
         <div className="footer-inner">
           <div className="footer-left">
-            <img src="/images/logo.png" alt="SAUMPALS Logo" className="footer-logo" />
+            <img src="/images/logo.webp" alt="SAUMPALS Logo" className="footer-logo" />
             <div className="footer-copyright-block">
               <p className="footer-copyright"><span className="footer-underline">222lab.in</span> 2026</p>
               <p className="footer-copyright">All rights reserved by @saumyajain.design</p>

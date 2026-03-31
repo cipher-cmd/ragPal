@@ -192,14 +192,14 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 20px;
+  gap: 30px;
   flex-wrap: wrap;
-  max-width: 800px;
+  max-width: 900px;
   margin: 0 auto;
 }
 
 .as-seen-img {
-  max-height: 55px;
+  max-height: 75px;
   width: auto;
   object-fit: contain;
   opacity: 0.6;
@@ -423,8 +423,10 @@ body {
 .footer-left {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  min-height: 200px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 40px;
+  min-height: auto;
 }
 
 .footer-logo {
