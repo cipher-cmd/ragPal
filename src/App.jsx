@@ -96,7 +96,7 @@ function App() {
         <div className="testimonials-grid">
           <div className="test-card">
             <img src="/images/testimonial1.webp" alt="Simran Jain" />
-            <p className="test-quote">"Isko kaise jhel lete ho" is the best dialogue since birth. Jk chote, watching you grow into a b'ful, independent, person is the best feeling. LY</p>
+            <p className="test-quote">“Isko kaise jhel lete ho” is my best dialogue since birth. Jk chote, Watching you grow into a b’ful, independent, person is the best feeling. You’ll always be my baby, my soul</p>
           </div>
           <div className="test-card">
             <img src="/images/testimonial2.webp" alt="Mammi Pappa" />
