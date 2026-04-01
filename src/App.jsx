@@ -154,7 +154,7 @@ function App() {
             <img src="/images/logo.webp" alt="SAUMPALS Logo" className="footer-logo" />
             <div className="footer-copyright-block">
               <p className="footer-copyright"><span className="footer-underline">222lab.in</span> 2026</p>
-              <p className="footer-copyright">All rights reserved by @saumyajain.design</p>
+              <p className="footer-copyright">Copyright @saumyajain.design</p>
               <p className="footer-copyright">Anashirinbrainrot pvt ltd.</p>
             </div>
           </div>
