@@ -67,6 +67,23 @@ body {
   transform: translateY(0);
 }
 
+.desktop-only {
+  display: block;
+}
+
+.mobile-only {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .desktop-only {
+    display: none;
+  }
+  .mobile-only {
+    display: block;
+  }
+}
+
 /* ================== HERO SECTION ================== */
 .hero {
   position: relative;

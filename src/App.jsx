@@ -36,8 +36,12 @@ function App() {
       <section className="hero">
         <div className="hero-overlay"></div>
         <div ref={heroBgRef} className="hero-parallax-wrapper">
-          <img src="/images/hero.webp" alt="Background Blur" className="hero-bg-blur" />
-          <img src="/images/hero.webp" alt="Hero background" className="hero-bg" />
+          {/* Desktop background images */}
+          <img src="/images/hero.webp" alt="Background Blur" className="hero-bg-blur desktop-only" />
+          <img src="/images/hero.webp" alt="Hero background" className="hero-bg desktop-only" />
+          {/* Mobile background images */}
+          <img src="/images/mobileHero.png" alt="Mobile Background Blur" className="hero-bg-blur mobile-only" />
+          <img src="/images/mobileHero.png" alt="Mobile Hero background" className="hero-bg mobile-only" />
         </div>
         <div className="hero-content reveal">
           <h1 className="hero-title">Happy Birthday Saumi</h1>
@@ -83,10 +87,10 @@ function App() {
           </p>
         </div>
         <div className="dear-saumi-images parallax-img-group">
-          <img src="/images/dearSaumi1.png" alt="Saumi 1" className="ds-img ds-img-1" />
-          <img src="/images/dearSaumi2.png" alt="Saumi 2" className="ds-img ds-img-2" />
-          <img src="/images/dearSaumi3.png" alt="Saumi 3" className="ds-img ds-img-3" />
-          <img src="/images/dearSaumi4.png" alt="Saumi 4" className="ds-img ds-img-4" />
+          <img src="/images/dearSaumi1.svg" alt="Saumi 1" className="ds-img ds-img-1" />
+          <img src="/images/dearSaumi2.svg" alt="Saumi 2" className="ds-img ds-img-2" />
+          <img src="/images/dearSaumi3.svg" alt="Saumi 3" className="ds-img ds-img-3" />
+          <img src="/images/dearSaumi4.svg" alt="Saumi 4" className="ds-img ds-img-4" />
         </div>
       </section>
 
@@ -113,9 +117,9 @@ function App() {
       <section className="media-recognition reveal">
         <h2 className="section-title">Media Recognition</h2>
         <p className="media-body">
-          222lab.in founder Saumya Jain has been featured across media for her sharp UI/UX,<br/>world class taste <span className="basic-amp">&</span> harkate
+          222lab.in founder Saumya Jain has been featured across media for her sharp UI/UX,<br />world class taste <span className="basic-amp">&</span> harkate
           <br /><br />
-          She runs a full-time job, advisor to PeakPals, loves hard, hypes her people, sips matcha <span className="basic-amp">&</span><br/>overthinks everything(I'm going insane)
+          She runs a full-time job, advisor to PeakPals, loves hard, hypes her people, sips matcha <span className="basic-amp">&</span><br />overthinks everything(I'm going insane)
           <br /><br />
           But somehow, she's a huge inspiration to many, especially one.
         </p>
@@ -125,16 +129,16 @@ function App() {
       <section className="magazines reveal">
         <div className="magazines-grid">
           <div className="mag-item">
-             <img src="/images/media1.webp" alt="The Chicken Magazine" />
+            <img src="/images/media1.webp" alt="The Chicken Magazine" />
           </div>
           <div className="mag-item">
-             <img src="/images/media2.webp" alt="R. Republic Magazine" />
+            <img src="/images/media2.webp" alt="R. Republic Magazine" />
           </div>
           <div className="mag-item">
-             <img src="/images/media3.webp" alt="Femina Magazine" />
+            <img src="/images/media3.webp" alt="Femina Magazine" />
           </div>
           <div className="mag-item">
-             <img src="/images/media4.webp" alt="Fortune Time Magazine" />
+            <img src="/images/media4.webp" alt="Fortune Time Magazine" />
           </div>
         </div>
       </section>
@@ -153,7 +157,7 @@ function App() {
           <div className="footer-right">
             <p className="footer-tagline">No returns. No exchanges. You're stuck with me.</p>
             <p className="footer-secondary">Started with facetime, and rest is history</p>
-            <p className="footer-credits">Built with alot of love <span className="basic-amp">&</span> efforts by Team PeakPals,<br/>hope you love it, God bless!</p>
+            <p className="footer-credits">Built with alot of love <span className="basic-amp">&</span> efforts by Team PeakPals,<br />hope you love it, God bless!</p>
           </div>
         </div>
         <div className="footer-divider"></div>
