@@ -77,7 +77,7 @@ function App() {
             Three months with you in Delhi were the best time of my life, and I keep going back to them more than I admit. The way you can be so fun and crazy in one moment, and so strong and focused the next, it honestly inspires me. Watching you chase your dreams in New York, even when things could be easier, makes me respect you even more.
           </p>
           <p>
-            Even the simplest things with you, just being on FaceTime while you cook, sleep, acting, style , your presence alone feels like a blessing.
+            Even the simplest things with you, just being on FaceTime while you cook, sleep, acting, style, your presence alone feels like a blessing.
           </p>
           <p>
             I love you, grateful for you, just the way you are.
@@ -116,13 +116,17 @@ function App() {
       {/* Media Recognition Section */}
       <section className="media-recognition reveal">
         <h2 className="section-title">Media Recognition</h2>
-        <p className="media-body">
-          222lab.in founder Saumya Jain has been featured across media for her sharp UI/UX,<br />world class taste <span className="basic-amp">&</span> harkate
-          <br /><br />
-          She runs a full-time job, advisor to PeakPals, loves hard, hypes her people, sips matcha <span className="basic-amp">&</span><br />overthinks everything(I'm going insane)
-          <br /><br />
-          But somehow, is a huge inspiration.
-        </p>
+        <div className="media-body">
+          <p>
+            222lab.in founder Saumya Jain has been featured across media for her sharp UI/UX, world class taste <span className="basic-amp">&</span> harkate
+          </p>
+          <p>
+            She runs a full-time job, advisor to PeakPals, loves hard, hypes her people, sips matcha <span className="basic-amp">&</span> overthinks everything<br />(I'm going insane)
+          </p>
+          <p>
+            But somehow, is a huge inspiration.
+          </p>
+        </div>
       </section>
 
       {/* Magazine Covers Section */}
