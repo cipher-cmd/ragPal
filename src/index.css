@@ -131,6 +131,10 @@ body {
   animation: subtleZoom 25s ease-in-out alternate infinite;
 }
 
+.hero-bg-mobile {
+  object-fit: contain !important;
+}
+
 .hero-overlay {
   position: absolute;
   top: 0;

@@ -40,8 +40,8 @@ function App() {
           <img src="/images/hero.webp" alt="Background Blur" className="hero-bg-blur desktop-only" />
           <img src="/images/hero.webp" alt="Hero background" className="hero-bg desktop-only" />
           {/* Mobile background images */}
-          <img src="/images/mobileHero.png" alt="Mobile Background Blur" className="hero-bg-blur mobile-only" />
-          <img src="/images/mobileHero.png" alt="Mobile Hero background" className="hero-bg mobile-only" />
+          <img src="/images/mobileHero.webp" alt="Mobile Background Blur" className="hero-bg-blur mobile-only" />
+          <img src="/images/mobileHero.webp" alt="Mobile Hero background" className="hero-bg mobile-only hero-bg-mobile" />
         </div>
         <div className="hero-content reveal">
           <h1 className="hero-title">Happy Birthday Saumi</h1>
@@ -121,7 +121,7 @@ function App() {
           <br /><br />
           She runs a full-time job, advisor to PeakPals, loves hard, hypes her people, sips matcha <span className="basic-amp">&</span><br />overthinks everything(I'm going insane)
           <br /><br />
-          But somehow, she's a huge inspiration to many, especially one.
+          But somehow, is a huge inspiration.
         </p>
       </section>
 
